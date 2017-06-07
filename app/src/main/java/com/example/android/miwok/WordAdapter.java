@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import static com.example.android.miwok.R.id.text_container;
+
 /**
  * Created by User on 5/21/2017.
  */
@@ -50,7 +52,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
                 listItemView = LayoutInflater.from(getContext()).inflate(
                         R.layout.list_item, parent, false);
 
-                LinearLayout textContainer = (LinearLayout) listItemView.findViewById(R.id.text_container);
+                LinearLayout textContainer = (LinearLayout) listItemView.findViewById(text_container);
 
                 textContainer.setBackgroundColor(color);
             }

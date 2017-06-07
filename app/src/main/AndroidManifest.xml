@@ -33,6 +33,11 @@
                   android:label="Phrases"/>
         <activity android:name=".NumbersActivity"
                   android:label="Numbers"/>
+        <activity android:name=".FamilyMembersActivity"
+        android:label="Family"/>
+        <activity android:name=".ColorsActivity"
+            android:label="Colors"/>
+
     </application>
 
 </manifest>
