@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -52,7 +53,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
                 listItemView = LayoutInflater.from(getContext()).inflate(
                         R.layout.list_item, parent, false);
 
-                LinearLayout textContainer = (LinearLayout) listItemView.findViewById(text_container);
+                RelativeLayout textContainer = (RelativeLayout) listItemView.findViewById(text_container);
 
                 textContainer.setBackgroundColor(color);
             }
